@@ -1,0 +1,422 @@
+2022-09-27 13:32:24.192  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : Starting TweetApplication using Java 16.0.2 on LTIN342049 with PID 1244 (C:\Users\921540\Downloads\TweetAppBackend-main\target\classes started by 921540 in C:\Users\921540\Downloads\TweetAppBackend-main)
+2022-09-27 13:32:24.205  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : No active profile set, falling back to default profiles: default
+2022-09-27 13:32:24.277  INFO 1244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-27 13:32:24.277  INFO 1244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-27 13:32:25.817  INFO 1244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-27 13:32:25.899  INFO 1244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 2 MongoDB repository interfaces.
+2022-09-27 13:32:26.543  INFO 1244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-09-27 13:32:26.563  INFO 1244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 13:32:26.564  INFO 1244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-27 13:32:26.800  INFO 1244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 13:32:26.801  INFO 1244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2522 ms
+2022-09-27 13:32:27.254  INFO 1244 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-27 13:32:27.353  INFO 1244 --- [cluster-ClusterId{value='6332ae13916ecc04db2c33e4', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:34}] to localhost:27017
+2022-09-27 13:32:27.354  INFO 1244 --- [cluster-rtt-ClusterId{value='6332ae13916ecc04db2c33e4', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:35}] to localhost:27017
+2022-09-27 13:32:27.354  INFO 1244 --- [cluster-ClusterId{value='6332ae13916ecc04db2c33e4', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=27480800}
+2022-09-27 13:32:27.498  INFO 1244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 13:32:28.470  INFO 1244 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-09-27 13:32:28.642  INFO 1244 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-27 13:32:29.010  INFO 1244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-09-27 13:32:29.011  INFO 1244 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-27 13:32:29.043  INFO 1244 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-27 13:32:29.058  INFO 1244 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-27 13:32:29.353  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2022-09-27 13:32:29.360  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2022-09-27 13:32:29.367  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2022-09-27 13:32:29.376  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2022-09-27 13:32:29.381  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2022-09-27 13:32:29.386  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2022-09-27 13:32:29.396  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2022-09-27 13:32:29.402  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2022-09-27 13:32:29.413  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2022-09-27 13:32:29.418  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2022-09-27 13:32:29.433  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2022-09-27 13:32:29.442  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2022-09-27 13:32:29.446  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2022-09-27 13:32:29.460  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2022-09-27 13:32:29.469  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2022-09-27 13:32:29.510  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2022-09-27 13:32:29.514  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2022-09-27 13:32:29.523  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2022-09-27 13:32:29.530  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2022-09-27 13:32:29.535  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2022-09-27 13:32:29.544  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_20
+2022-09-27 13:32:29.756  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : Started TweetApplication in 6.011 seconds (JVM running for 7.848)
+2022-09-27 13:32:29.952  INFO 1244 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 13:32:29.952  INFO 1244 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 13:32:29.956  INFO 1244 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-09-27 13:34:32.543  INFO 1244 --- [http-nio-8090-exec-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:36}] to localhost:27017
+2022-09-27 13:34:32.591  INFO 1244 --- [http-nio-8090-exec-4] c.tweetapp.api.service.UserServiceImpl   : kanmanic--Logged in Successfully..!
+2022-09-27 13:34:32.669  INFO 1244 --- [http-nio-8090-exec-6] c.t.api.controller.TweetAppController    : Retreive all the tweets by the all users
+2022-09-27 13:34:32.669  INFO 1244 --- [http-nio-8090-exec-6] c.tweetapp.api.service.TweetServiceImpl  : Retriving all the tweet data
+2022-09-27 14:59:24.574  INFO 1244 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-27 14:59:24.595  INFO 1244 --- [Thread-4] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:36}] to localhost:27017 because the pool has been closed.
+2022-09-27 16:43:26.518  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : Starting TweetApplication using Java 16.0.2 on LTIN342049 with PID 1244 (C:\Users\921540\Downloads\TweetAppBackend-main\target\classes started by 921540 in C:\Users\921540\Downloads\TweetAppBackend-main)
+2022-09-27 16:43:26.519  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : No active profile set, falling back to default profiles: default
+2022-09-27 16:43:27.003  INFO 1244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-27 16:43:27.022  INFO 1244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 2 MongoDB repository interfaces.
+2022-09-27 16:43:27.116  INFO 1244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-09-27 16:43:27.116  INFO 1244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 16:43:27.116  INFO 1244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-27 16:43:27.146  INFO 1244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 16:43:27.146  INFO 1244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 624 ms
+2022-09-27 16:43:27.212  INFO 1244 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-27 16:43:27.215  INFO 1244 --- [cluster-rtt-ClusterId{value='6332dad7916ecc04db2c33e6', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:42}] to localhost:27017
+2022-09-27 16:43:27.215  INFO 1244 --- [cluster-ClusterId{value='6332dad7916ecc04db2c33e6', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:43}] to localhost:27017
+2022-09-27 16:43:27.215  INFO 1244 --- [cluster-ClusterId{value='6332dad7916ecc04db2c33e6', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1235200}
+2022-09-27 16:43:27.236  INFO 1244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 16:43:27.402  INFO 1244 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-09-27 16:43:27.454  INFO 1244 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-27 16:43:27.529  INFO 1244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-09-27 16:43:27.530  INFO 1244 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-27 16:43:27.531  INFO 1244 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-27 16:43:27.538  INFO 1244 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-27 16:43:27.596  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2022-09-27 16:43:27.598  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2022-09-27 16:43:27.601  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2022-09-27 16:43:27.603  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2022-09-27 16:43:27.605  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2022-09-27 16:43:27.606  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2022-09-27 16:43:27.608  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2022-09-27 16:43:27.609  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2022-09-27 16:43:27.611  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2022-09-27 16:43:27.613  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2022-09-27 16:43:27.614  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2022-09-27 16:43:27.615  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2022-09-27 16:43:27.617  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2022-09-27 16:43:27.622  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2022-09-27 16:43:27.623  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2022-09-27 16:43:27.625  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2022-09-27 16:43:27.627  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2022-09-27 16:43:27.629  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2022-09-27 16:43:27.632  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2022-09-27 16:43:27.634  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2022-09-27 16:43:27.636  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_20
+2022-09-27 16:43:27.727  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : Started TweetApplication in 1.236 seconds (JVM running for 11465.817)
+2022-09-27 16:43:27.734  INFO 1244 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name TweetApplicationlogs (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-09-27 16:49:53.249  INFO 1244 --- [RMI TCP Connection(202)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 16:49:53.250  INFO 1244 --- [RMI TCP Connection(202)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 16:49:53.253  INFO 1244 --- [RMI TCP Connection(202)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-09-27 16:51:38.748  INFO 1244 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-27 16:51:44.416  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : Starting TweetApplication using Java 16.0.2 on LTIN342049 with PID 1244 (C:\Users\921540\Downloads\TweetAppBackend-main\target\classes started by 921540 in C:\Users\921540\Downloads\TweetAppBackend-main)
+2022-09-27 16:51:44.417  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : No active profile set, falling back to default profiles: default
+2022-09-27 16:51:45.031  INFO 1244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-27 16:51:45.053  INFO 1244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 2 MongoDB repository interfaces.
+2022-09-27 16:51:45.134  INFO 1244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-09-27 16:51:45.134  INFO 1244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 16:51:45.134  INFO 1244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-27 16:51:45.169  INFO 1244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 16:51:45.169  INFO 1244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 748 ms
+2022-09-27 16:51:45.233  INFO 1244 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-27 16:51:45.237  INFO 1244 --- [cluster-ClusterId{value='6332dcc9916ecc04db2c33e8', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:11, serverValue:47}] to localhost:27017
+2022-09-27 16:51:45.237  INFO 1244 --- [cluster-rtt-ClusterId{value='6332dcc9916ecc04db2c33e8', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:12, serverValue:46}] to localhost:27017
+2022-09-27 16:51:45.237  INFO 1244 --- [cluster-ClusterId{value='6332dcc9916ecc04db2c33e8', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1221100}
+2022-09-27 16:51:45.254  INFO 1244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 16:51:45.391  INFO 1244 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-09-27 16:51:45.436  INFO 1244 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-27 16:51:45.505  INFO 1244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-09-27 16:51:45.506  INFO 1244 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-27 16:51:45.507  INFO 1244 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-27 16:51:45.510  INFO 1244 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-27 16:51:45.567  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2022-09-27 16:51:45.570  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2022-09-27 16:51:45.572  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2022-09-27 16:51:45.573  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2022-09-27 16:51:45.575  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2022-09-27 16:51:45.577  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2022-09-27 16:51:45.579  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2022-09-27 16:51:45.581  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2022-09-27 16:51:45.583  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2022-09-27 16:51:45.585  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2022-09-27 16:51:45.587  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2022-09-27 16:51:45.589  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2022-09-27 16:51:45.591  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2022-09-27 16:51:45.595  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2022-09-27 16:51:45.596  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2022-09-27 16:51:45.598  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2022-09-27 16:51:45.600  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2022-09-27 16:51:45.602  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2022-09-27 16:51:45.603  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2022-09-27 16:51:45.605  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2022-09-27 16:51:45.606  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_20
+2022-09-27 16:51:45.695  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : Started TweetApplication in 1.329 seconds (JVM running for 11963.785)
+2022-09-27 16:51:45.701  INFO 1244 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name TweetApplicationlogs (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-09-27 16:51:46.976  INFO 1244 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-27 16:51:47.052  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : Starting TweetApplication using Java 16.0.2 on LTIN342049 with PID 1244 (C:\Users\921540\Downloads\TweetAppBackend-main\target\classes started by 921540 in C:\Users\921540\Downloads\TweetAppBackend-main)
+2022-09-27 16:51:47.053  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : No active profile set, falling back to default profiles: default
+2022-09-27 16:51:47.462  INFO 1244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-27 16:51:47.480  INFO 1244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 MongoDB repository interfaces.
+2022-09-27 16:51:47.555  INFO 1244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-09-27 16:51:47.556  INFO 1244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 16:51:47.556  INFO 1244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-27 16:51:47.585  INFO 1244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 16:51:47.585  INFO 1244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 530 ms
+2022-09-27 16:51:47.650  INFO 1244 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-27 16:51:47.653  INFO 1244 --- [cluster-ClusterId{value='6332dccb916ecc04db2c33e9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:13, serverValue:49}] to localhost:27017
+2022-09-27 16:51:47.653  INFO 1244 --- [cluster-rtt-ClusterId{value='6332dccb916ecc04db2c33e9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:14, serverValue:48}] to localhost:27017
+2022-09-27 16:51:47.653  INFO 1244 --- [cluster-ClusterId{value='6332dccb916ecc04db2c33e9', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1023400}
+2022-09-27 16:51:47.667  INFO 1244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 16:51:47.805  INFO 1244 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-09-27 16:51:47.842  INFO 1244 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-27 16:51:47.908  INFO 1244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-09-27 16:51:47.909  INFO 1244 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-27 16:51:47.910  INFO 1244 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-27 16:51:47.914  INFO 1244 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-27 16:51:47.973  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2022-09-27 16:51:47.976  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2022-09-27 16:51:47.977  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2022-09-27 16:51:47.978  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2022-09-27 16:51:47.980  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2022-09-27 16:51:47.982  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2022-09-27 16:51:47.983  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2022-09-27 16:51:47.984  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2022-09-27 16:51:47.986  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2022-09-27 16:51:47.987  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2022-09-27 16:51:47.989  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2022-09-27 16:51:47.990  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2022-09-27 16:51:47.992  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2022-09-27 16:51:47.995  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2022-09-27 16:51:47.997  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2022-09-27 16:51:47.998  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2022-09-27 16:51:48.004  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2022-09-27 16:51:48.006  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2022-09-27 16:51:48.007  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2022-09-27 16:51:48.009  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2022-09-27 16:51:48.011  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_20
+2022-09-27 16:51:48.097  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : Started TweetApplication in 1.066 seconds (JVM running for 11966.188)
+2022-09-27 16:51:48.104  INFO 1244 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 16:52:19.542  INFO 1244 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-27 16:52:23.670  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : Starting TweetApplication using Java 16.0.2 on LTIN342049 with PID 1244 (C:\Users\921540\Downloads\TweetAppBackend-main\target\classes started by 921540 in C:\Users\921540\Downloads\TweetAppBackend-main)
+2022-09-27 16:52:23.670  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : No active profile set, falling back to default profiles: default
+2022-09-27 16:52:24.377  INFO 1244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-27 16:52:24.407  INFO 1244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 2 MongoDB repository interfaces.
+2022-09-27 16:52:24.535  INFO 1244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-09-27 16:52:24.536  INFO 1244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 16:52:24.537  INFO 1244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-27 16:52:24.578  INFO 1244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 16:52:24.579  INFO 1244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 906 ms
+2022-09-27 16:52:24.664  INFO 1244 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-27 16:52:24.667  INFO 1244 --- [cluster-ClusterId{value='6332dcf0916ecc04db2c33eb', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:17, serverValue:52}] to localhost:27017
+2022-09-27 16:52:24.667  INFO 1244 --- [cluster-ClusterId{value='6332dcf0916ecc04db2c33eb', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1180500}
+2022-09-27 16:52:24.667  INFO 1244 --- [cluster-rtt-ClusterId{value='6332dcf0916ecc04db2c33eb', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:18, serverValue:53}] to localhost:27017
+2022-09-27 16:52:24.691  INFO 1244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 16:52:24.843  INFO 1244 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-09-27 16:52:24.891  INFO 1244 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-27 16:52:24.970  INFO 1244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-09-27 16:52:24.971  INFO 1244 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-27 16:52:24.971  INFO 1244 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-27 16:52:24.974  INFO 1244 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-27 16:52:25.039  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2022-09-27 16:52:25.042  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2022-09-27 16:52:25.044  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2022-09-27 16:52:25.046  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2022-09-27 16:52:25.047  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2022-09-27 16:52:25.049  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2022-09-27 16:52:25.051  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2022-09-27 16:52:25.052  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2022-09-27 16:52:25.054  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2022-09-27 16:52:25.056  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2022-09-27 16:52:25.057  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2022-09-27 16:52:25.059  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2022-09-27 16:52:25.062  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2022-09-27 16:52:25.065  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2022-09-27 16:52:25.067  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2022-09-27 16:52:25.068  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2022-09-27 16:52:25.070  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2022-09-27 16:52:25.072  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2022-09-27 16:52:25.073  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2022-09-27 16:52:25.075  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2022-09-27 16:52:25.077  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_20
+2022-09-27 16:52:25.196  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : Started TweetApplication in 1.56 seconds (JVM running for 12003.287)
+2022-09-27 16:52:25.208  INFO 1244 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name TweetApplicationlogs (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-09-27 16:52:26.417  INFO 1244 --- [Thread-38] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-27 16:52:26.503  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : Starting TweetApplication using Java 16.0.2 on LTIN342049 with PID 1244 (C:\Users\921540\Downloads\TweetAppBackend-main\target\classes started by 921540 in C:\Users\921540\Downloads\TweetAppBackend-main)
+2022-09-27 16:52:26.504  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : No active profile set, falling back to default profiles: default
+2022-09-27 16:52:27.116  INFO 1244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-27 16:52:27.140  INFO 1244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 2 MongoDB repository interfaces.
+2022-09-27 16:52:27.223  INFO 1244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-09-27 16:52:27.223  INFO 1244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 16:52:27.223  INFO 1244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-27 16:52:27.260  INFO 1244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 16:52:27.260  INFO 1244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 754 ms
+2022-09-27 16:52:27.339  INFO 1244 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-27 16:52:27.346  INFO 1244 --- [cluster-ClusterId{value='6332dcf3916ecc04db2c33ec', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:19, serverValue:54}] to localhost:27017
+2022-09-27 16:52:27.346  INFO 1244 --- [cluster-rtt-ClusterId{value='6332dcf3916ecc04db2c33ec', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:20, serverValue:55}] to localhost:27017
+2022-09-27 16:52:27.346  INFO 1244 --- [cluster-ClusterId{value='6332dcf3916ecc04db2c33ec', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1036100}
+2022-09-27 16:52:27.368  INFO 1244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 16:52:27.514  INFO 1244 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-09-27 16:52:27.556  INFO 1244 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-27 16:52:27.630  INFO 1244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-09-27 16:52:27.631  INFO 1244 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-27 16:52:27.631  INFO 1244 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-27 16:52:27.635  INFO 1244 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-27 16:52:27.695  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2022-09-27 16:52:27.698  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2022-09-27 16:52:27.700  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2022-09-27 16:52:27.701  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2022-09-27 16:52:27.703  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2022-09-27 16:52:27.705  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2022-09-27 16:52:27.706  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2022-09-27 16:52:27.708  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2022-09-27 16:52:27.709  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2022-09-27 16:52:27.710  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2022-09-27 16:52:27.712  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2022-09-27 16:52:27.713  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2022-09-27 16:52:27.716  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2022-09-27 16:52:27.719  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2022-09-27 16:52:27.724  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2022-09-27 16:52:27.726  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2022-09-27 16:52:27.727  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2022-09-27 16:52:27.729  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2022-09-27 16:52:27.732  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2022-09-27 16:52:27.734  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2022-09-27 16:52:27.736  INFO 1244 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_20
+2022-09-27 16:52:27.836  INFO 1244 --- [restartedMain] com.tweetapp.api.TweetApplication        : Started TweetApplication in 1.355 seconds (JVM running for 12005.927)
+2022-09-27 16:52:27.843  INFO 1244 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 16:52:51.603  INFO 25464 --- [restartedMain] com.tweetapp.api.TweetApplication        : Starting TweetApplication using Java 16.0.2 on LTIN342049 with PID 25464 (C:\Users\921540\Downloads\TweetAppBackend-main\target\classes started by 921540 in C:\Users\921540\Downloads\TweetAppBackend-main)
+2022-09-27 16:52:51.604  INFO 25464 --- [restartedMain] com.tweetapp.api.TweetApplication        : No active profile set, falling back to default profiles: default
+2022-09-27 16:52:51.659  INFO 25464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-27 16:52:51.659  INFO 25464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-27 16:52:52.788  INFO 25464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-27 16:52:52.848  INFO 25464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 2 MongoDB repository interfaces.
+2022-09-27 16:52:53.562  INFO 25464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-09-27 16:52:53.572  INFO 25464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 16:52:53.573  INFO 25464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-27 16:52:53.697  INFO 25464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 16:52:53.697  INFO 25464 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2037 ms
+2022-09-27 16:52:54.053  INFO 25464 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-27 16:52:54.121  INFO 25464 --- [cluster-ClusterId{value='6332dd0e831bf9144debb2a1', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:56}] to localhost:27017
+2022-09-27 16:52:54.122  INFO 25464 --- [cluster-rtt-ClusterId{value='6332dd0e831bf9144debb2a1', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:57}] to localhost:27017
+2022-09-27 16:52:54.122  INFO 25464 --- [cluster-ClusterId{value='6332dd0e831bf9144debb2a1', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=24624700}
+2022-09-27 16:52:54.287  WARN 25464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-09-27 16:52:55.231  INFO 25464 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-09-27 16:52:55.415  INFO 25464 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-27 16:52:55.809  WARN 25464 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8090 is already in use
+2022-09-27 16:52:55.811  INFO 25464 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-27 16:52:55.829  INFO 25464 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 16:52:55.851  INFO 25464 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-27 16:52:55.873 ERROR 25464 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2022-09-27 17:08:09.863  INFO 1244 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 17:08:09.864  INFO 1244 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 17:08:09.865  INFO 1244 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-27 17:08:09.877  INFO 1244 --- [http-nio-8090-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:21, serverValue:61}] to localhost:27017
+2022-09-27 17:08:09.881  INFO 1244 --- [http-nio-8090-exec-2] c.tweetapp.api.service.UserServiceImpl   : kanmanic--Logged in Successfully..!
+2022-09-27 17:08:09.925  INFO 1244 --- [http-nio-8090-exec-4] c.t.api.controller.TweetAppController    : Retreive all the tweets by the all users
+2022-09-27 17:08:09.925  INFO 1244 --- [http-nio-8090-exec-4] c.tweetapp.api.service.TweetServiceImpl  : Retriving all the tweet data
